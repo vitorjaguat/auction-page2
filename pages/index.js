@@ -33,14 +33,12 @@ export default function Home() {
         <Connect network={process.env.NEXT_APP_NETWORK} />
 
         {/* ~~ Add Marketplace Widget component ~~ */}
-        {showListings && (
-          <Listing
-            id={5155}
-            network={process.env.NEXT_APP_NETWORK}
-            // id={'4250'}
-            // network={'1'}
-          />
-        )}
+        <Listing
+          id={5155}
+          network={process.env.NEXT_APP_NETWORK}
+          // id={'4250'}
+          // network={'1'}
+        />
       </main>
     </div>
   );
