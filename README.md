@@ -1,38 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Marketplace Listing Page
 
-## Getting Started
+<img src="marketplace.png" width="300" />
 
-First, run the development server:
+This is a simple example of a Marketplace Listing Page.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+This was created using the standard `create-next-app` script.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Configuration
+Please make sure you create your own env file and set `NEXT_APP_NETWORK` and `NEXT_APP_MARKETPLACE_LISTING_ID` values.\
+An example configuration file can be found at [`.env.example`](./.env.example).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## How does it work?
+In this example, we are adding a [Connect Widget](https://docs.manifold.xyz/v/manifold-for-developers/resources/widgets/connect-widget) and a [Marketplace Widget](https://docs.manifold.xyz/v/manifold-for-developers/resources/widgets/marketplace-widgets) which will display a marketplace listing.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The scripts and stylesheets are included in [`_document.js`](./pages/_document.js) as part of the `head` HTML tag.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+In the project directory, you can run:
 
-## Learn More
+### `yarn start`
 
-To learn more about Next.js, take a look at the following resources:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### `yarn test`
 
-## Deploy on Vercel
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### `yarn run build`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
