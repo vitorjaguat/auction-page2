@@ -30,7 +30,8 @@ export default function Document() {
 
         <link
           rel='stylesheet'
-          href='https://marketplace.manifoldxyz.dev/3.3.7/marketplace.css'
+          // href='https://marketplace.manifoldxyz.dev/3.3.7/marketplace.css'
+          // href='../styles/marketplace.css'
         />
         <script
           src='https://marketplace.manifoldxyz.dev/3.3.7/marketplace.umd.js'
