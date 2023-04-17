@@ -1,3 +1,6 @@
+import Connect from '../../components/Connect';
+import Listing from '../../components/Listing';
+
 export default function Listing() {
   return (
     <div className=''>
