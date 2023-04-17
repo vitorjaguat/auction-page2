@@ -35,9 +35,9 @@ export default function Home() {
         {/* ~~ Add Marketplace Widget component ~~ */}
         <Listing
           id={5155}
-          network={process.env.NEXT_APP_NETWORK}
+          // network={process.env.NEXT_APP_NETWORK}
           // id={'4250'}
-          // network={'1'}
+          network={'1'}
         />
       </main>
     </div>
