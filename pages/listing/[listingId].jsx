@@ -1,7 +1,7 @@
 import Connect from '../../components/Connect';
 import Listing from '../../components/Listing';
 
-export default function Listing() {
+export default function ListingID() {
   return (
     <div className=''>
       {/* -- Add Connect Widget -- */}
