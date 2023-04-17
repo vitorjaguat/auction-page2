@@ -20,17 +20,17 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        {/* <h1 className={styles.title}>
           <a href='https://docs.manifold.xyz/v/manifold-for-developers/client-widgets/overview'>
             Manifold
           </a>
           <span> </span>
           Next.js Template
-        </h1>
-        <br />
+        </h1> */}
 
         {/* -- Add Connect Widget -- */}
         <Connect network={process.env.NEXT_APP_NETWORK} />
+        <br />
 
         {/* ~~ Add Marketplace Widget component ~~ */}
         <Listing
