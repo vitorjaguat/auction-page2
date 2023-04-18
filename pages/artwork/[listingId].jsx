@@ -10,10 +10,10 @@ export default function ListingID() {
   return (
     <div className=''>
       {/* -- Add Connect Widget -- */}
-      <div className='flex w-full justify-between p-4'>
+      <div className='flex w-full justify-between items-stretch p-8 pb-4 md:pb-8 px-3'>
         <div
           onClick={() => router.push('/')}
-          className='h-fit cursor-pointer rounded-lg border-[0.5px] py-3 px-5 hover:text-slate-400 hover:bg-slate-900 text-sm'
+          className='flex items-center cursor-pointer rounded-lg border-[0.5px] py-3 px-5 md:px-8 hover:text-slate-400 hover:bg-slate-900 text-sm tracking-widest'
         >
           back
         </div>
@@ -22,16 +22,19 @@ export default function ListingID() {
       </div>
 
       {/* ~~ Add Marketplace Widget component ~~ */}
-      <Listing
-        id={listingId}
-        // network={process.env.NEXT_APP_NETWORK}
-        // id={'4250'}
-        network={'1'}
-      />
-      <div className='flex w-full items-end justify-between p-4 pt-16'>
+      <div className='max-w-[1100px] mx-auto'>
+        <Listing
+          id={listingId}
+          // network={process.env.NEXT_APP_NETWORK}
+          // id={'4250'}
+          network={'1'}
+        />
+      </div>
+
+      <div className='flex w-full justify-between items-stretch p-8 pb-4 md:pb-8 px-3 md:px-8'>
         <div
           onClick={() => router.push('/')}
-          className='h-fit cursor-pointer rounded-lg border-[0.5px] py-3 px-5 hover:text-slate-400 hover:bg-slate-900 text-sm'
+          className='flex items-center cursor-pointer rounded-lg border-[0.5px] py-3 px-5 hover:text-slate-400 hover:bg-slate-900 text-sm tracking-widest'
         >
           back
         </div>
