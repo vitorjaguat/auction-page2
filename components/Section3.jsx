@@ -14,7 +14,7 @@ export default function Section3() {
       </div>
       <div className='w-full py-32 px-10 sm:px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
         {listingIds.map((listingId) => (
-          <div className='rounded-sm bg-slate-900 h-fit'>
+          <div className='rounded-sm bg-slate-900 h-fit' key={listingId}>
             <Section3CardItem id={listingId} />
           </div>
         ))}
