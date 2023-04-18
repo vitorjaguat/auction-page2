@@ -1,3 +1,9 @@
+import Link from 'next/link';
+
 export default function Section3CardItem({ id }) {
-  return <div data-widget='m-card-catalog' data-id={id} data-network='1'></div>;
+  return (
+    <Link href={`/listing/${id}`}>
+      <div data-widget='m-card-catalog' data-id={id} data-network='1'></div>
+    </Link>
+  );
 }
