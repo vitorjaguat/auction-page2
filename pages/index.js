@@ -8,6 +8,7 @@ import Section2 from '../components/Section2';
 import Section3 from '../components/Section3';
 import Section4 from '../components/Section4';
 import Section5 from '../components/Section5';
+import Footer from '../components/Footer';
 
 export default function Home() {
   const [showListings, setShowListings] = useState(false);
@@ -28,20 +29,7 @@ export default function Home() {
       <Section3 />
       <Section4 />
       <Section5 />
-
-      <main className={styles.main}>
-        {/* -- Add Connect Widget -- */}
-        <Connect network={process.env.NEXT_APP_NETWORK} />
-        <br />
-
-        {/* ~~ Add Marketplace Widget component ~~ */}
-        <Listing
-          id={5155}
-          // network={process.env.NEXT_APP_NETWORK}
-          // id={'4250'}
-          network={'1'}
-        />
-      </main>
+      <Footer />
     </div>
   );
 }
