@@ -311,6 +311,26 @@ input:checked + .m-toggle-slider[data-v-5af0f0e6]:before {
   grid-template-columns: 300px auto;
   margin-bottom: 3px;
 }
+@media (max-width: 768px) {
+  .m-attributes .m-attribute[data-v-251a39d4]:nth-of-type(1),
+  .m-attributes .m-attribute[data-v-251a39d4]:nth-of-type(3),
+  .m-attributes .m-attribute[data-v-251a39d4]:nth-of-type(4) {
+    display: grid;
+    grid-template-columns: 150px auto;
+    margin-bottom: 3px;
+  }
+  .m-attributes
+    .m-attribute[data-v-251a39d4]:nth-of-type(1)
+    span:nth-of-type(2),
+  .m-attributes
+    .m-attribute[data-v-251a39d4]:nth-of-type(3)
+    span:nth-of-type(2),
+  .m-attributes
+    .m-attribute[data-v-251a39d4]:nth-of-type(4)
+    span:nth-of-type(2) {
+    text-align: end;
+  }
+}
 .m-attributes .m-attribute span[data-v-251a39d4] {
   color: var(--manifold-text--color--muted);
   font-size: small;
