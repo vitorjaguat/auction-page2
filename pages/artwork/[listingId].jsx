@@ -8,14 +8,14 @@ export default function ListingID() {
   const listingId = router.query.listingId;
 
   return (
-    <div className=''>
+    <div className='w-screen'>
       {/* -- Add Connect Widget -- */}
-      <div className='flex w-full justify-between items-stretch p-8 pb-4 md:pb-8 px-3 md:px-0 max-w-[1100px] mx-auto'>
+      <div className='flex w-full justify-between items-stretch p-8 pb-4 md:pb-8 px-3 md:px-8'>
         <div
           onClick={() => router.push('/')}
-          className='flex items-center cursor-pointer rounded-lg border-[0.5px] py-3 px-5 md:px-8 hover:text-slate-400 hover:bg-slate-900 text-sm tracking-widest'
+          className='flex justify-center items-center cursor-pointer rounded-lg border-[0.5px] py-3 px-5 md:px-8 hover:text-slate-400 hover:bg-slate-900 text-sm tracking-widest md:w-[200px]'
         >
-          back
+          HOME
         </div>
 
         <Connect network='1' />
@@ -31,12 +31,12 @@ export default function ListingID() {
         />
       </div>
 
-      <div className='flex w-full justify-between items-stretch p-8 pb-4 md:pb-8 px-3 md:px-8'>
+      <div className='mt-10 flex w-full justify-between items-stretch p-8 pb-4 md:pb-8 px-3 md:px-8'>
         <div
           onClick={() => router.push('/')}
-          className='flex items-center cursor-pointer rounded-lg border-[0.5px] py-3 px-5 hover:text-slate-400 hover:bg-slate-900 text-sm tracking-widest'
+          className='flex justify-center items-center cursor-pointer rounded-lg border-[0.5px] py-3 px-5 hover:text-slate-400 hover:bg-slate-900 text-sm tracking-widest md:w-[200px]'
         >
-          back
+          HOME
         </div>
 
         <Connect network='1' />
