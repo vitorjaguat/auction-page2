@@ -2514,8 +2514,8 @@ input:checked + .m-toggle-slider[data-v-5af0f0e6]:before {
   background: var(--manifold-element--color--background);
   overflow: visible;
   position: relative;
-  border: var(--manifold-border--width) var(--manifold-border--style)
-    var(--manifold-text--color--muted);
+  /* border: var(--manifold-border--width) var(--manifold-border--style)
+    var(--manifold-text--color--muted); */
 }
 @media screen and (max-width: 700px) {
   .m-card {
