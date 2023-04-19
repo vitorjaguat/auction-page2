@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --manifold-text--font-family--body: var(--din-font);
+  --manifold-text--font-family--header: var(--din-font);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
