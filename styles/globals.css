@@ -14,3 +14,8 @@
     background: var(--manifold-page--color--background);
   }
 }
+
+/* do not display image on Click to learn more card */
+.no-image img {
+  display: none;
+}

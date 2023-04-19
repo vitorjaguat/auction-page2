@@ -799,6 +799,10 @@ input:checked + .m-toggle-slider[data-v-5af0f0e6]:before {
   -o-object-position: center center;
   object-position: center center;
 }
+.no-image .m-lazy-music audio[data-v-00a308a6] {
+  width: 95%;
+  height: 2.7rem;
+}
 .m-lazy-video {
   --m-lazy-video--button--offset-x: calc(
     (

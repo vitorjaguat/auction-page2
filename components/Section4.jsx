@@ -8,9 +8,12 @@ export default function Section4() {
       <div className='h-16 w-full bg-black/80 sticky top-0 left-0 px-10 sm:px-20  z-10 flex items-center tracking-[6px] uppercase'>
         Click on learn more (2023)
       </div>
-      <div className='w-full pt-20 pb-32 sm:px-20 max-w-[700px] flex justify-center px-10'>
+      <div className='w-full pt-20 pb-32 flex justify-center'>
         {/* {listingIds.map((listingId) => ( */}
-        <div className='rounded-sm bg-slate-900 h-fit' key={listingId}>
+        <div
+          className='w-[800px] no-image rounded-sm bg-slate-900 h-fit'
+          key={listingId}
+        >
           <Section4CardItem id={listingId} />
         </div>
         {/* ))} */}
