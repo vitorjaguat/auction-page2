@@ -1,7 +1,7 @@
 export default function Section2() {
   return (
-    <div className='flex justify-center items-center '>
-      <div className='max-w-[1000px] py-32 px-10 md:px-20 flex justify-center items-center bg-slate-900'>
+    <div className='flex justify-center items-center w-screen bg-slate-900 '>
+      <div className='max-w-[1000px] py-40 px-10 md:px-20 flex justify-center items-center bg-slate-900'>
         <div className=' leading-8 uppercase'>
           <span className='font-bold'>Portas Vilaseca</span> presents{' '}
           <span className='font-bold'>Pedro Victor Brandão</span>'s third solo

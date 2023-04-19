@@ -9,6 +9,7 @@ const din = localFont({
     { path: '../public/fonts/din-regular.woff2', weight: '400' },
     { path: '../public/fonts/din-bold.woff2', weight: '800', style: 'bold' },
     { path: '../public/fonts/din-italic.woff2', style: 'italic' },
+    { path: '../public/fonts/din-light.woff2', style: 'light', weight: '100' },
   ],
   variable: '--din-font',
   display: 'block',
