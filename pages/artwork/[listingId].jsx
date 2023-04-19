@@ -10,7 +10,7 @@ export default function ListingID() {
   return (
     <div className=''>
       {/* -- Add Connect Widget -- */}
-      <div className='flex w-full justify-between items-stretch p-8 pb-4 md:pb-8 px-3'>
+      <div className='flex w-full justify-between items-stretch p-8 pb-4 md:pb-8 px-3 md:px-0 max-w-[1100px] mx-auto'>
         <div
           onClick={() => router.push('/')}
           className='flex items-center cursor-pointer rounded-lg border-[0.5px] py-3 px-5 md:px-8 hover:text-slate-400 hover:bg-slate-900 text-sm tracking-widest'

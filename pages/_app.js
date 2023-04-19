@@ -2,6 +2,17 @@ import '../styles/globals.css';
 import '../styles/marketplace.css';
 // import { useEffect } from 'react';
 // import { useRouter } from 'next/router';
+import localFont from '@next/font/local';
+
+const din = localFont({
+  src: [
+    { path: '../public/fonts/din-regular.woff2', weight: '400' },
+    { path: '../public/fonts/din-bold.woff2', weight: '800', style: 'bold' },
+    { path: '../public/fonts/din-italic.woff2', style: 'italic' },
+  ],
+  variable: '--din-font',
+  display: 'block',
+});
 
 function MyApp({ Component, pageProps }) {
   /**
@@ -24,7 +35,11 @@ function MyApp({ Component, pageProps }) {
   //   };
   // }, []);
 
-  return <Component {...pageProps} />;
+  return (
+    <main className={`${din.variable} font-din`}>
+      <Component {...pageProps} />
+    </main>
+  );
 }
 
 export default MyApp;

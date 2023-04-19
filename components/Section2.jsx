@@ -12,7 +12,7 @@ export default function Section2() {
           paintings from the series{' '}
           <span className='font-bold'>View to nothingness</span>, along with a
           large-format print of one of these originals. The second floor is
-          dedicated to geometric abstractions, including the interactive work
+          dedicated to geometric abstractions, including the interactive work{' '}
           <span className='font-bold'>Faucet</span> from the series{' '}
           <span className='font-bold'>Prepared screen</span>, and six new
           paintings from the series{' '}
