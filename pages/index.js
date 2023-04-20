@@ -19,11 +19,11 @@ export default function Home() {
 
   return (
     <div className=''>
-      <Head>
+      {/* <Head>
         <title>Marketplace do Antílope</title>
         <meta name='description' content='Marketplace do Antílope Cerejinha' />
         <link rel='icon' href='/favicon.ico' />
-      </Head>
+      </Head> */}
       <Hero />
       <Section2 />
       <Section3 />
@@ -34,8 +34,8 @@ export default function Home() {
   );
 }
 
-export function getStaticProps() {
-  return {
-    props: {},
-  };
-}
+// export function getStaticProps() {
+//   return {
+//     props: {},
+//   };
+// }
