@@ -4,6 +4,7 @@ import '../styles/marketplace.css';
 // import { useRouter } from 'next/router';
 import localFont from '@next/font/local';
 import ogImg from '../public/img/og-img.png';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 //SEO & Head:
 import Head from 'next/head';
@@ -106,7 +107,9 @@ function MyApp({ Component, pageProps }) {
         <link rel='shortcut icon' href='/img/favicon.jpg' />
       </Head>
       <main className={`${din.variable} font-din`}>
-        <Component {...pageProps} />
+        <ParallaxProvider>
+          <Component {...pageProps} />
+        </ParallaxProvider>
       </main>
     </>
   );

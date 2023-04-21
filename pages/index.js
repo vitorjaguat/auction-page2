@@ -9,6 +9,7 @@ import Section3 from '../components/Section3';
 import Section4 from '../components/Section4';
 import Section5 from '../components/Section5';
 import Footer from '../components/Footer';
+import Detail from '../components/Detail';
 
 export default function Home() {
   const [showListings, setShowListings] = useState(false);
@@ -26,6 +27,7 @@ export default function Home() {
       </Head> */}
       <Hero />
       <Section2 />
+      <Detail />
       <Section3 />
       <Section4 />
       <Section5 />
