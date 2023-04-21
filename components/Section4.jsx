@@ -4,7 +4,7 @@ const listingId = '5192';
 
 export default function Section4() {
   return (
-    <div className='w-screen'>
+    <div className='w-screen' id='click'>
       <div className='h-16 w-full bg-black/80 sticky top-0 left-0 px-10 sm:px-20  z-10 flex items-center tracking-[6px] uppercase'>
         Click on learn more (2023)
       </div>

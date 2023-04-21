@@ -9,7 +9,10 @@ const listingIds = [
 export default function Section3() {
   return (
     <div className='mt-32 w-screen'>
-      <div className='h-16 w-full bg-black/80 sticky top-0 left-0 px-10 sm:px-20  z-10 flex items-center tracking-[6px] uppercase'>
+      <div
+        className='h-16 w-full bg-black/80 sticky top-0 left-0 px-10 sm:px-20  z-10 flex items-center tracking-[6px] uppercase'
+        id='view'
+      >
         View to nothingness (2008-2012)
       </div>
       <div className='w-full pt-20 pb-32 px-10 sm:px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 sm:gap-6'>

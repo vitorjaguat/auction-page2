@@ -7,6 +7,10 @@
   --manifold-text--font-family--header: var(--din-font);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
