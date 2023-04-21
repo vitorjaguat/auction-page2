@@ -5,6 +5,7 @@ import '../styles/marketplace.css';
 import localFont from '@next/font/local';
 import ogImg from '../public/img/og-img.png';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import { appWithTranslation } from 'next-i18next';
 
 //SEO & Head:
 import Head from 'next/head';
@@ -115,4 +116,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default appWithTranslation(MyApp);

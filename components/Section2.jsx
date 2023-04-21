@@ -52,7 +52,16 @@ export default function Section2() {
               practiced within and outside the arts.
             </div>
             <div className='mb-6'>
-              For full documentation, click{' '}
+              You’ll find the full documentation in english about the exhibition{' '}
+              <a
+                className='cursor-pointer font-bold'
+                href='#'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                here
+              </a>
+              , in portuguese{' '}
               <a
                 className='cursor-pointer font-bold'
                 href='#'
