@@ -86,7 +86,8 @@ export default function FaqPage() {
   return (
     <div className='w-screen'>
       <div className='w-full h-[30vh] bg-slate-700'>imagem</div>
-      <div className='py-20 px-4 md:px-20 lg:px-40'>
+      <div className='py-20 px-6 md:px-20 xl:px-60'>
+        <div className='pb-24 text-lg'>{t('faq.intro')}</div>
         <Faq data={data} styles={styles} config={config} />
       </div>
       <Footer />

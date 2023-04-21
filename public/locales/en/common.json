@@ -1,5 +1,6 @@
 {
   "faq": {
+    "intro": "MORE ABSTRACT is a solo exhibition by Pedro Victor Brandão presented at Portas Vilaseca Gallery from April 26 to June 24, 2023. In this manual, you will find frequently asked questions about how to interact with the tokens listed on the website.",
     "instructions": "INSTRUCTIONS",
     "q1": "What is a non-fungible token (NFT)?",
     "a1": "A non-fungible token (NFT) is a type of a digital deed that is inscribed on a public internet registry. Simply put, it can be understood as a container for metadata and media content, thus being a means of artistic and financial expression that allows for the self-issuance of scarce digital assets. For more details on this technology and its applications, you can watch <a className='text-slate-300' href='https://www.youtube.com/watch?v=aLS2mJsS36g' target='_blank' rel='noopener noreferrer'>Episode #8 of Triangle Network TV</a> where artist Pedro Victor Brandão discusses the fundamentals of this technology from the creation of <a href='https://twitter.com/acerolafund' target='_blank' rel='noopener noreferrer'>Acerola Fund</a>, a public collection of cryptomedia works made by artists from the Global South.",

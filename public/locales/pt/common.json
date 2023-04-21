@@ -1,5 +1,6 @@
 {
   "faq": {
+    "intro": "MAIS ABSTRATAS é uma exposição individual de Pedro Victor Brandão apresentada na Portas Vilaseca Galeria entre 26 de Abril e 24 de Junho de 2023. Neste manual você encontrará perguntas frequentes sobre como interagir com os tokens listados no site.",
     "instructions": "INSTRUÇÕES",
     "q1": "O que é um token não-fungível (NFT)?",
     "a1": "Um token não-fungível (NFT) é uma espécie de escritura digital que é inscrita em um registro público na internet. De forma simples, pode ser entendido como um continente para metadados e conteúdos de mídia, sendo assim um meio de expressão artística e financeira que possibilita a auto-emissão de bens digitais escassos. Para mais detalhes sobre essa tecnologia e suas aplicações, você pode assistir o <a className='text-slate-300' href='https://www.youtube.com/watch?v=aLS2mJsS36g' target='_blank' rel='noopener noreferrer'><u>episódio #8 da Triangle Network TV</u></a> onde o artista Pedro Victor Brandão comenta sobre os fundamentos dessa tecnologia a partir da criação do <a href='https://twitter.com/acerolafund' target='_blank' rel='noopener noreferrer'><u>Fundo Acerola</u></a>, uma coleção pública de trabalhos de criptomídia feitos por artistas do Sul Global.",
