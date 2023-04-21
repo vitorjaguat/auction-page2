@@ -2,16 +2,17 @@ import React, { useEffect, useState } from 'react';
 import Faq from 'react-faq-component';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+import Footer from '../components/Footer';
 
 const styles = {
-  // bgColor: 'white',
-  titleTextColor: 'black',
-  rowTitleColor: 'black',
+  bgColor: 'transparent',
+  titleTextColor: 'grey',
+  rowTitleColor: 'white',
   rowContentColor: 'grey',
-  // arrowColor: 'red',
+  arrowColor: 'grey',
   // rowContentPaddingLeft: '30px',
   // rowContentPaddingRight: '70px',
-  rowContentPaddingBottom: '1rem',
+  rowContentPaddingBottom: '1.5rem',
   // padding: '50px',
 };
 
@@ -85,9 +86,10 @@ export default function FaqPage() {
   return (
     <div className='w-screen'>
       <div className='w-full h-[30vh] bg-slate-700'>imagem</div>
-      <div className='py-20'>
+      <div className='py-20 px-4 md:px-20 lg:px-40'>
         <Faq data={data} styles={styles} config={config} />
       </div>
+      <Footer />
     </div>
   );
 }

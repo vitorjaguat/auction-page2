@@ -11,6 +11,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.faq-row-wrapper.faq-title {
+  text-align: right;
+  font-size: small;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
