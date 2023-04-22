@@ -19,7 +19,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className=''>
+    <div className='w-screen overflow-hidden'>
       {/* <Head>
         <title>Marketplace do Antílope</title>
         <meta name='description' content='Marketplace do Antílope Cerejinha' />
