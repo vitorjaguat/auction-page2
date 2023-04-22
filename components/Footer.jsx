@@ -3,7 +3,7 @@ import logoFarcaster from '../public/img/logo-farcaster.svg';
 
 export default function Footer() {
   return (
-    <div className='h-full flex justify-between items-center py-10 px-6 md:px-8 bg-slate-900 text-sm'>
+    <div className='h-full flex justify-between items-center py-8 sm:py-10 px-3 sm:px-6 md:px-8 bg-slate-900 text-xs sm:text-sm'>
       <div className='flex flex-col justify-center'>
         <div className='flex items-center'>
           <a

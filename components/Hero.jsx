@@ -14,7 +14,12 @@ export default function Hero() {
         rel='noopener noreferrer'
       >
         <div className='absolute p-8 bottom-2 sm:bottom-full sm:top-4 flex right-2 sm:right-4 w-[120px] sm:w-[140px] h-[150px] sm:h-[180px]'>
-          <Image src='/img/logo-pvg.svg' fill className='object-cover' />
+          <Image
+            src='/img/logo-pvg.svg'
+            fill
+            className='object-cover'
+            alt='Portas Vilaseca Galeria'
+          />
         </div>
       </Link>
     </div>

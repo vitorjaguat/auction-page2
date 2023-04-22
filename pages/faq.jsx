@@ -19,7 +19,7 @@ const styles = {
 const config = {
   // animate: true,
   // arrowIcon: "V",
-  // tabFocus: true
+  // tabFocus: false,
 };
 
 export default function FaqPage() {

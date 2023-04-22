@@ -4,7 +4,7 @@ import { useParallax } from 'react-scroll-parallax';
 
 export default function Detail() {
   const { ref } = useParallax({
-    speed: 5,
+    speed: -5,
   });
 
   return (
@@ -15,7 +15,7 @@ export default function Detail() {
           //   width={2000}
           //   height={500}
           fill
-          className='object-cover'
+          className='object-cover -translate-y-3'
           unoptimized
         />
       </div>
