@@ -28,3 +28,26 @@ html {
 .no-image img {
   display: none;
 }
+
+.no-image .m-lazy-music audio[data-v-ba734e87] {
+  width: 90%;
+  height: 2.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.m-attribute {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+.m-attribute span {
+  max-width: 50%;
+  word-wrap: break-word;
+}
+
+.m-attribute span:nth-of-type(2) {
+  text-align: end;
+}

@@ -15,6 +15,7 @@ export default function Document() {
           src='https://connect.manifoldxyz.dev/2.2.4/connect.umd.js'
           async
         ></script>
+        {/* <script src='../utils/connect.umd.js' async></script> */}
 
         {/* <script src='https://identity.manifoldxyz.dev/2.1.0/walletIdentity.umd.min.js'></script>
         <link
@@ -30,15 +31,15 @@ export default function Document() {
 
         <link
           rel='stylesheet'
-          href='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.css'
-          // href='../styles/marketplace.css'
+          // href='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.css'
+          href='../styles/marketplace3310.css'
         />
         <script
           src='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.umd.js'
           async
         ></script>
       </Head>
-      <body>
+      <body className='w-screen overflow-x-hidden'>
         <Main />
         <NextScript />
       </body>
