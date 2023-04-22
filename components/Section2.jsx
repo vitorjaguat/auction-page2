@@ -15,13 +15,13 @@ export default function Section2() {
             <div className='mb-6'>
               The ground floor displays the complete set of unique chemical
               paintings from the series{' '}
-              <a href='#view' scroll={false}>
+              <a href='#view'>
                 <span className='font-bold'>View to nothingness</span>
               </a>
               , alongside with a large-format print of one of these originals.
               The second floor is dedicated to geometric abstractions, including
               the interactive work{' '}
-              <a href='#faucet' scroll={false}>
+              <a href='#faucet'>
                 <span className='font-bold'>Faucet</span>
               </a>{' '}
               from the series <span className='font-bold'>Prepared screen</span>
@@ -31,7 +31,7 @@ export default function Section2() {
             <div className='mb-6'>
               The staircase leading to the third floor houses the sound
               installation{' '}
-              <a href='#click' scroll={false}>
+              <a href='#click'>
                 <span className='font-bold'>Click on learn more</span>
               </a>{' '}
               from the series <span className='font-bold'>Detremura</span>, with
@@ -39,7 +39,7 @@ export default function Section2() {
             </div>
             <div className='mb-6'>
               The third floor showcases the films from the series{' '}
-              <a href='#cloud' scroll={false}>
+              <a href='#cloud'>
                 <span className='font-bold'>Cloud, Continent, Island</span>
               </a>{' '}
               and serves as a space for discussions and presentations.
