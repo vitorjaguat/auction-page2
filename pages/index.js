@@ -10,6 +10,7 @@ import Section4 from '../components/Section4';
 import Section5 from '../components/Section5';
 import Footer from '../components/Footer';
 import Detail from '../components/Detail';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 export default function Home() {
   const [showListings, setShowListings] = useState(false);
@@ -41,3 +42,11 @@ export default function Home() {
 //     props: {},
 //   };
 // }
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['common'])),
+    },
+  };
+}
