@@ -3,8 +3,8 @@ import logoFarcaster from '../public/img/logo-farcaster.svg';
 
 export default function Footer() {
   return (
-    <div className='h-full flex justify-between items-center py-8 sm:py-10 px-3 sm:px-6 md:px-8 bg-slate-900 text-xs sm:text-sm'>
-      <div className='flex flex-col justify-center'>
+    <div className='h-full flex flex-col sm:flex-row sm:justify-between sm:items-center py-6 sm:py-10 px-3 sm:px-6 md:px-8 bg-slate-900 text-xs sm:text-sm'>
+      <div className='flex flex-col items-center sm:items-start justify-center text-right sm:text-left'>
         <div className='flex items-center'>
           <a
             href='http://pedrovictor.com.br'
@@ -34,7 +34,7 @@ export default function Footer() {
             href='https://fcast.me/pedrovictor'
             target='_blank'
             rel='noopener noreferrer'
-            className='mr-2 w-3 h-3'
+            className='sm:mr-2 w-3 h-3'
           >
             <img src='/img/logo-farcaster.svg' alt='farcaster' />
           </a>
@@ -60,13 +60,13 @@ export default function Footer() {
             href='https://instagram.com/portasvilaseca'
             target='_blank'
             rel='noopener noreferrer'
-            className='mr-2'
+            className='sm:mr-2'
           >
             <BsInstagram />
           </a>
         </div>
       </div>
-      <div className='h-full flex flex-col justify-center text-right'>
+      <div className='h-full flex flex-col justify-center text-center sm:text-right'>
         <div className=''>
           powered by{' '}
           <a
