@@ -16,7 +16,7 @@ export default function Section2() {
           </div>
 
           {currentLang === 'en' && (
-            <div className=' leading-8 uppercase'>
+            <div className='leading-8 uppercase'>
               <div className='mb-6'>
                 <span className='font-bold'>Portas Vilaseca</span> presents{' '}
                 <span className='font-bold'>Pedro Victor Brandão</span>'s third
@@ -95,7 +95,7 @@ export default function Section2() {
                 </a>
                 .
               </div>
-              <div className='mb-6'>
+              <div className=''>
                 Got any doubts? Visit the{' '}
                 <Link className='font-bold' href='/faq'>
                   FAQ
@@ -182,7 +182,7 @@ export default function Section2() {
                 </a>
                 .
               </div>
-              <div className='mb-6'>
+              <div className=''>
                 Tem alguma dúvida? Visite o{' '}
                 <Link className='font-bold' href='/faq'>
                   FAQ

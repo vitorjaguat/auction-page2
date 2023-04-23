@@ -18,7 +18,7 @@ const listingIds4 = [5183, 5184, 5185, 5186, 5187, 5188, 5189, 5190, 5191];
 
 export default function Section3() {
   return (
-    <div className='w-screen'>
+    <div className='w-screen mt-40'>
       <div
         className='h-16 w-full bg-black/80 sticky top-0 left-0 px-10 sm:px-20  z-10 flex items-center tracking-[6px] uppercase'
         id='view'
@@ -52,7 +52,7 @@ export default function Section3() {
       </div>
       <Detail img={detail3} />
 
-      <div className='w-full pt-20 pb-32 px-10 sm:px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 sm:gap-6'>
+      <div className='w-full pt-20 pb-20 px-10 sm:px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 sm:gap-6'>
         {listingIds4.map((listingId) => (
           <div className='rounded-sm bg-slate-900 h-fit' key={listingId}>
             <Section3CardItem id={listingId} />
