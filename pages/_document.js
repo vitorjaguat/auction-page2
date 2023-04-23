@@ -46,22 +46,22 @@ export default function Document() {
           async
         ></script>
 
-        {/* <link
+        <link
           rel='stylesheet'
           href='https://claims.manifoldxyz.dev/1.5.1/claimComplete.css'
         />
         <script
           src='https://claims.manifoldxyz.dev/1.5.1/claimComplete.umd.min.js'
           async
-        ></script> */}
-        <link
+        ></script>
+        {/* <link
           rel='stylesheet'
           href='https://claims.manifoldxyz.dev/1.3.9/claimComplete.css'
         />
         <script
           src='https://claims.manifoldxyz.dev/1.3.9/claimComplete.umd.min.js'
           async
-        ></script>
+        ></script> */}
       </Head>
       <body className='w-screen overflow-x-hidden'>
         <Main />
