@@ -11,6 +11,7 @@ import Section5 from '../components/Section5';
 import Footer from '../components/Footer';
 import Detail from '../components/Detail';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import Section6 from '../components/Section6';
 
 export default function Home() {
   const [showListings, setShowListings] = useState(false);
@@ -32,6 +33,7 @@ export default function Home() {
       <Section3 />
       <Section4 />
       <Section5 />
+      <Section6 />
       <Footer />
     </div>
   );

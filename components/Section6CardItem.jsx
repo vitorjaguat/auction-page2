@@ -1,9 +1,17 @@
 import Link from 'next/link';
+import Connect from './Connect';
 
-export default function Section6CardItem({ id }) {
+export default function Section6CardItem({ instance }) {
   return (
-    <Link href={`/artwork/${id}`}>
-      <div data-widget='m-card-catalog' data-id={id} data-network='1'></div>
-    </Link>
+    <>
+      <Connect />
+      <Link href={`/artwork/${instance}`}>
+        <div
+          data-widget='m-claim-complete'
+          data-id='1045020912'
+          data-network='1'
+        ></div>
+      </Link>
+    </>
   );
 }

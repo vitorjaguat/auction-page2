@@ -31,11 +31,20 @@ export default function Document() {
 
         <link
           rel='stylesheet'
-          // href='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.css'
-          href='../styles/marketplace3310.css'
+          href='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.css'
+          // href='../styles/marketplace3310.css'
         />
         <script
           src='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.umd.js'
+          async
+        ></script>
+
+        <link
+          rel='stylesheet'
+          href='https://claims.manifoldxyz.dev/1.5.1/claimComplete.css'
+        />
+        <script
+          src='https://claims.manifoldxyz.dev/1.5.1/claimComplete.umd.min.js'
           async
         ></script>
       </Head>
