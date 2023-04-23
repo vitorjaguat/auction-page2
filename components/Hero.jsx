@@ -10,7 +10,12 @@ export default function Hero() {
       </div>
 
       <div className='absolute z-0 top-0 left-0 w-screen h-screen'>
-        <Image src={vista1} fill alt='Vista da exposição' />
+        <Image
+          src={vista1}
+          fill
+          alt='Vista da exposição'
+          className='object-cover'
+        />
       </div>
 
       <Link
