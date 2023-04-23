@@ -13,6 +13,10 @@ import Detail from '../components/Detail';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Section6 from '../components/Section6';
 import Vista from '../components/Vista';
+import vista2 from '../public/img/vistas/002.jpg';
+import vista3 from '../public/img/vistas/003.jpg';
+import vista4 from '../public/img/vistas/004.jpg';
+import vista5 from '../public/img/vistas/005.jpg';
 
 export default function Home() {
   const [showListings, setShowListings] = useState(false);
@@ -31,10 +35,15 @@ export default function Home() {
       <Hero />
       <Section2 />
       {/* <Detail /> */}
-      <Vista />
+      <Vista img={vista2} />
       <Section3 />
+      <Vista img={vista3} />
       <Section4 />
+      <Vista img={vista4} />
+
       <Section5 />
+      <Vista img={vista5} />
+
       <Section6 />
       <Footer />
     </div>

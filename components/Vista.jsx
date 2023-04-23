@@ -1,10 +1,9 @@
-import vista2 from '../public/img/vistas/002.jpg';
 import Image from 'next/image';
 
-export default function Vista() {
+export default function Vista({ img }) {
   return (
-    <div className='w-screen overflow-hidden h-fit max-h-[800px]'>
-      <Image src={vista2} alt='Exhibition view' className='object-cover' />
+    <div className='w-screen overflow-hidden h-fit max-h-[700px] flex items-center'>
+      <Image src={img} alt='Exhibition view' className='object-cover' />
     </div>
   );
 }
