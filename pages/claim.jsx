@@ -22,7 +22,9 @@ export default function Claim() {
       <div className='max-w-[1100px] mx-auto'>
         <div
           data-widget='m-claim-complete'
-          data-id='1040586992'
+          // data-id='1040586992' //notably nyc, works!
+          data-id='1044943088' // new pepe, no!
+          // data-id='1045020912' // antílope, no!
           //   data-fallback-provider
           //   data-v-app
           //   data-network='1'

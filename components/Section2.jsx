@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Section2() {
   return (
     <div>
@@ -70,6 +72,13 @@ export default function Section2() {
               >
                 here
               </a>
+              .
+            </div>
+            <div className='mb-6'>
+              Got any doubts? Visit the{' '}
+              <Link className='font-bold' href='/faq'>
+                FAQ
+              </Link>
               .
             </div>
           </div>
