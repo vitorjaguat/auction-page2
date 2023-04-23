@@ -6,7 +6,7 @@ export default function Section4() {
   return (
     <div className='w-screen' id='click'>
       <div className='h-16 w-full bg-black/80 sticky top-0 left-0 px-10 sm:px-20  z-10 flex items-center tracking-[6px] uppercase'>
-        Click on learn more (2023)
+        CLIQUE NO SAIBA MAIS (2023), FROM DETREMURA SERIES (2019-)
       </div>
       <div className='w-full py-[15vh] md:py-[25vh] flex justify-center'>
         {/* {listingIds.map((listingId) => ( */}

@@ -77,8 +77,8 @@ export default function Footer() {
             Manifold
           </a>
         </div>
-        <div className=''>developed by Vitor Butkus</div>
-        <div className=''>2023</div>
+        <div className='mb-2 sm:mb-0'>developed by Vitor Butkus</div>
+        <div className='-mb-2 sm:mb-0'>2023</div>
       </div>
     </div>
   );
