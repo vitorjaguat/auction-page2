@@ -14,6 +14,7 @@ export default function Document() {
         <script
           src='https://connect.manifoldxyz.dev/2.2.4/connect.umd.js'
           async
+          defer
         ></script>
         {/* <link
           rel='stylesheet'
@@ -24,13 +25,21 @@ export default function Document() {
           async
         ></script> */}
 
-        <script src='https://identity.manifoldxyz.dev/2.1.0/walletIdentity.umd.min.js'></script>
+        <script
+          src='https://identity.manifoldxyz.dev/2.1.0/walletIdentity.umd.min.js'
+          async
+          defer
+        ></script>
         <link
           rel='stylesheet'
           href='https://identity.manifoldxyz.dev/2.1.0/walletIdentity.css'
         />
 
-        <script src='https://restrictedtoken.manifoldxyz.dev/0.1.0/restrictedToken.umd.min.js'></script>
+        <script
+          src='https://restrictedtoken.manifoldxyz.dev/0.1.0/restrictedToken.umd.min.js'
+          async
+          defer
+        ></script>
         <link
           rel='stylesheet'
           href='https://restrictedtoken.manifoldxyz.dev/0.1.0/restrictedToken.css'
@@ -44,16 +53,19 @@ export default function Document() {
         <script
           src='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.umd.js'
           async
+          defer
         ></script>
 
+        <script
+          src='https://claims.manifoldxyz.dev/1.5.2/claimComplete.umd.min.js'
+          async
+          defer
+        ></script>
         <link
           rel='stylesheet'
           href='https://claims.manifoldxyz.dev/1.5.2/claimComplete.css'
         />
-        <script
-          src='https://claims.manifoldxyz.dev/1.5.2/claimComplete.umd.min.js'
-          async
-        ></script>
+
         {/* <link
           rel='stylesheet'
           href='https://claims.manifoldxyz.dev/1.3.9/claimComplete.css'
