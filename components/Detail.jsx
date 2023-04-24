@@ -3,7 +3,7 @@ import { useParallax } from 'react-scroll-parallax';
 
 export default function Detail({ img }) {
   const { ref } = useParallax({
-    speed: -5,
+    speed: -10,
   });
 
   return (
